@@ -1,0 +1,16 @@
+#!/usr/local/bin/java --source 11
+
+    import java.nio.file.*;
+
+   // How to Run:
+   // $chmod +x listallfiles
+   // $./listallfiles .  // Here "." is a current directory.
+
+    public class ListAllFilesScripting {
+        public static void main (String[] args) throws Exception
+        {
+            Files.walk(Paths.get(args[0]))
+                   .forEach(System.out::println);
+        }
+    }
+
