@@ -38,8 +38,5 @@ public class LibraryImprovements {
 
         String repeat = "=".repeat(2);
         System.out.println(repeat); //prints ==
-
-
-
     }
 }
