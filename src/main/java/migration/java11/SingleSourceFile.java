@@ -8,6 +8,6 @@ How to Run: $java SingleSourceFile.java
  */
 public class SingleSourceFile {
     public static void main(String[] args) {
-        System.out.println("Hello InfoQ Universe");
+        System.out.println("Hello Universe");
     }
 }
